@@ -9,6 +9,7 @@ def create
     redirect_to list_path(@list.id)
    else
     render :new
+    
    end
 end
 
